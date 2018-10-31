@@ -21,4 +21,4 @@ git config --global user.name "David Geilfus"
 
 git add .
 git commit -m "Automated Rebuild"
-git push -f origin YOUR_PAGES_BRANCH
+git push -f origin gh-pages
