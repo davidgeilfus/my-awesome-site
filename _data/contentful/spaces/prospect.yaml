@@ -1,89 +1,6 @@
 ---
 feature:
 - sys:
-    id: 1uAmPWTn9miIyKW0s0AWGw
-    created_at: !ruby/object:DateTime 2018-10-30 12:14:20.959000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-30 18:59:40.221000000 Z
-    content_type_id: feature
-    revision: 6
-  title: Find Prospects on Professional Networks
-  description:
-    data: {}
-    content:
-    - data: {}
-      content:
-      - data: {}
-        marks: []
-        value: Our 
-        nodeType: text
-      - data:
-          uri: https://chrome.google.com/webstore/detail/prospectio/dpkbdbpmahebenenkkjenihgfophknbm
-        content:
-        - data: {}
-          marks: []
-          value: Google Chrome extension
-          nodeType: text
-        nodeType: hyperlink
-      - data: {}
-        marks: []
-        value: " is directly integrated in the most famous business oriented social
-          networks. Fire up the extension and find "
-        nodeType: text
-      - data: {}
-        marks:
-        - type: bold
-        value: names
-        nodeType: text
-      - data: {}
-        marks: []
-        value: ", "
-        nodeType: text
-      - data: {}
-        marks:
-        - type: bold
-        value: emails
-        nodeType: text
-      - data: {}
-        marks: []
-        value: ", "
-        nodeType: text
-      - data: {}
-        marks:
-        - type: bold
-        value: job titles
-        nodeType: text
-      - data: {}
-        marks: []
-        value: " and "
-        nodeType: text
-      - data: {}
-        marks:
-        - type: bold
-        value: companies
-        nodeType: text
-      - data: {}
-        marks: []
-        value: " in 1 click!"
-        nodeType: text
-      nodeType: paragraph
-    nodeType: document
-  category:
-    sys:
-      id: 712VU06yw8QakgaOMUiMI6
-      created_at: !ruby/object:DateTime 2018-10-30 13:55:41.385000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-30 13:55:41.385000000 Z
-      content_type_id: category
-      revision: 1
-    name: Prospecting
-  img:
-    sys:
-      id: 5tWiO11BsWaGUmk2oyICMO
-      created_at: !ruby/object:DateTime 2018-10-30 18:59:20.131000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-30 18:59:20.131000000 Z
-    title: professional-networks@2x
-    description: 
-    url: "//images.ctfassets.net/c72epiyp09r2/5tWiO11BsWaGUmk2oyICMO/2c3e513a46cfb10e28f3d894926391ee/professional-networks_2x.png"
-- sys:
     id: 5N0979fvsQusyyI6EGCaOM
     created_at: !ruby/object:DateTime 2018-10-30 12:15:33.492000000 Z
     updated_at: !ruby/object:DateTime 2018-10-30 13:56:47.335000000 Z
@@ -153,6 +70,81 @@ feature:
       content_type_id: category
       revision: 1
     name: Emailing
+- sys:
+    id: 1uAmPWTn9miIyKW0s0AWGw
+    created_at: !ruby/object:DateTime 2018-10-30 12:14:20.959000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-31 12:13:15.425000000 Z
+    content_type_id: feature
+    revision: 9
+  title: Find Prospects on Professional Networks
+  description:
+    data: {}
+    content:
+    - data: {}
+      content:
+      - data: {}
+        marks: []
+        value: Our 
+        nodeType: text
+      - data:
+          uri: https://chrome.google.com/webstore/detail/prospectio/dpkbdbpmahebenenkkjenihgfophknbm
+        content:
+        - data: {}
+          marks: []
+          value: Google Chrome extension
+          nodeType: text
+        nodeType: hyperlink
+      - data: {}
+        marks: []
+        value: " is directly integrated in the most famous business oriented social
+          networks. Fire up the extension and find "
+        nodeType: text
+      - data: {}
+        marks:
+        - type: bold
+        value: names
+        nodeType: text
+      - data: {}
+        marks: []
+        value: ", "
+        nodeType: text
+      - data: {}
+        marks:
+        - type: bold
+        value: emails
+        nodeType: text
+      - data: {}
+        marks: []
+        value: ", "
+        nodeType: text
+      - data: {}
+        marks:
+        - type: bold
+        value: job titles
+        nodeType: text
+      - data: {}
+        marks: []
+        value: " and "
+        nodeType: text
+      - data: {}
+        marks:
+        - type: bold
+        value: companies
+        nodeType: text
+      - data: {}
+        marks: []
+        value: " in 1 click!"
+        nodeType: text
+      nodeType: paragraph
+    nodeType: document
+  category:
+    sys:
+      id: 712VU06yw8QakgaOMUiMI6
+      created_at: !ruby/object:DateTime 2018-10-30 13:55:41.385000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-30 13:55:41.385000000 Z
+      content_type_id: category
+      revision: 1
+    name: Prospecting
 - sys:
     id: 43pIxDyWyIwaIU2MU2ioaI
     created_at: !ruby/object:DateTime 2018-10-30 12:14:53.175000000 Z
