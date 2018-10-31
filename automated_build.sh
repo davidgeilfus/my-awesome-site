@@ -4,7 +4,6 @@ CWD=`pwd`
 # Clone Pages repository
 cd /tmp
 git clone git@github.com:davidgeilfus/my-awesome-site.git build
-# cd build && git checkout -b YOUR_BRANCH origin/YOUR_BRANCH # If not using master
 
 # Trigger Jekyll rebuild
 cd $CWD
