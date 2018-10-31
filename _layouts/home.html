@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<h1 class="mb-4">Features</h1>
+
+{%- if site.data.contentful.spaces.prospect.category.size > 0 -%}
+  {% for category in site.data.contentful.spaces.prospect.category %}
+    <h2 class="mb-4">{{ category.name }}</h2>
+
+    {% assign features = site.data.contentful.spaces.prospect.feature | where:"category.name",category.name %}
+
+    {%- if features.size > 0 -%}
+      {% for feature in features %}
+        <div class="card mb-4">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm">
+                <h3 class="card-title">{{ feature.title }}</h3>
+                {{ feature.description | rich_text }}
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    {%- endif -%}
+  {% endfor %}
+{%- endif -%}
