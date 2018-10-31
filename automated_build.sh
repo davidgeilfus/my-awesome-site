@@ -11,7 +11,7 @@ bundle exec jekyll contentful
 bundle exec jekyll build
 
 # Push newly built repository
-cp -r $CWD/_build/* /tmp/build # or $CWD/_site
+cp -r $CWD/_site/* /tmp/build # or $CWD/_site
 
 cd /tmp/build
 
